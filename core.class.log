@@ -1,0 +1,1220 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '573145279609@s.whatsapp.net',
+    fromMe: false,
+    id: '24C7F44250148A6A434F34807AB87F15',
+    participant: undefined
+  },
+  messageTimestamp: 1739196977,
+  pushName: '..',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Hola',
+  from: '573145279609'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_0ba4d6b0-71fb-4fae-8d89-d877cb6350b8',
+  keyword: 'key_7d903d56-2afb-49e0-926f-ab8f151c5691',
+  answer: '🙌 ¡Hola! Bienvenido a *Atlantis Constructora Ltda.*\n' +
+    'Gracias por contactarnos.\n' +
+    'Estamos aquí para ayudarte a construir tus sueños.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '18c0de57e5f6bedcda919f4ee2ba708e'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_272a97ba-5abc-47a2-b573-fbab91ecc4ff',
+  keyword: 'ans_0ba4d6b0-71fb-4fae-8d89-d877cb6350b8',
+  answer: '¿Cuéntanos en qué podemos ayudarte?',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'f4d6e07d4dd8dbc72f0e5f21f8b12567'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573145279609@s.whatsapp.net',
+    fromMe: false,
+    id: '828A9D38D642D3DB65D4AD62CEE31DD0',
+    participant: undefined
+  },
+  messageTimestamp: 1739197034,
+  pushName: '..',
+  broadcast: false,
+  message: Message {
+    conversation: 'Asesor de ventas',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Asesor de ventas',
+  from: '573145279609'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573145279609@s.whatsapp.net',
+    fromMe: false,
+    id: '4757F5F2D2CDF18E5EA4517D827AC586',
+    participant: undefined
+  },
+  messageTimestamp: 1739197065,
+  pushName: '..',
+  broadcast: false,
+  message: Message {
+    conversation: '1',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '1',
+  from: '573145279609'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573145279609@s.whatsapp.net',
+    fromMe: false,
+    id: '5E5A9ACE1CD260013D95268E127BD79D',
+    participant: undefined
+  },
+  messageTimestamp: 1739197083,
+  pushName: '..',
+  broadcast: false,
+  message: Message {
+    conversation: 'Villa campestre',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Villa campestre',
+  from: '573145279609'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573117994060@s.whatsapp.net',
+    fromMe: false,
+    id: '2DF106FC953C2F6E2D5F4FACEAA99D6F',
+    participant: undefined
+  },
+  messageTimestamp: 1739197349,
+  pushName: 'Karina🤍',
+  broadcast: false,
+  messageStubType: 2,
+  messageStubParameters: [ 'Message absent from node' ],
+  body: undefined,
+  from: '573117994060'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573117994060@s.whatsapp.net',
+    fromMe: false,
+    id: '2DF106FC953C2F6E2D5F4FACEAA99D6F',
+    participant: undefined
+  },
+  messageTimestamp: 1739197350,
+  pushName: 'Karina🤍',
+  broadcast: false,
+  messageStubType: 2,
+  messageStubParameters: [ 'Message absent from node' ],
+  body: undefined,
+  from: '573117994060'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573117994060@s.whatsapp.net',
+    fromMe: false,
+    id: '2DF106FC953C2F6E2D5F4FACEAA99D6F',
+    participant: undefined
+  },
+  messageTimestamp: 1739197352,
+  pushName: 'Karina🤍',
+  broadcast: false,
+  messageStubType: 2,
+  messageStubParameters: [ 'Message absent from node' ],
+  body: undefined,
+  from: '573117994060'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573117994060@s.whatsapp.net',
+    fromMe: false,
+    id: '2DF106FC953C2F6E2D5F4FACEAA99D6F',
+    participant: undefined
+  },
+  messageTimestamp: 1739197353,
+  pushName: 'Karina🤍',
+  broadcast: false,
+  messageStubType: 2,
+  messageStubParameters: [ 'Message absent from node' ],
+  body: undefined,
+  from: '573117994060'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573117994060@s.whatsapp.net',
+    fromMe: false,
+    id: '2DF106FC953C2F6E2D5F4FACEAA99D6F',
+    participant: undefined
+  },
+  messageTimestamp: 1739197354,
+  pushName: 'Karina🤍',
+  broadcast: false,
+  messageStubType: 2,
+  messageStubParameters: [ 'Message absent from node' ],
+  body: undefined,
+  from: '573117994060'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573043070202@s.whatsapp.net',
+    fromMe: false,
+    id: '255E6323F56146BF2FD17D4049EEBFD3',
+    participant: undefined
+  },
+  messageTimestamp: 1739197454,
+  pushName: 'Natti 🦄',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Si amor',
+      previewType: 0,
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Si amor',
+  from: '573043070202'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_e11b0384-daa9-48bc-8a30-907198c5ab9c',
+  keyword: 'key_24572a79-e6c5-4ad5-b758-e1b0621b5968',
+  answer: '🙌 ¡Hola! Bienvenido a *Atlantis Constructora Ltda.*\n' +
+    'Gracias por contactarnos.\n' +
+    'Estamos aquí para ayudarte a construir tus sueños.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '948065a7b67e2aac931300b296946654'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_a4c653f3-cde4-4f21-ac1e-d9cb87a9515b',
+  keyword: 'ans_e11b0384-daa9-48bc-8a30-907198c5ab9c',
+  answer: '¿Cuéntanos en qué podemos ayudarte?',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '033c57c2c3f879e1d3f4b2c5368564c7'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573043070202@s.whatsapp.net',
+    fromMe: false,
+    id: 'FA19ED63F043860F68204A19B5C19BA6',
+    participant: undefined
+  },
+  messageTimestamp: 1739197489,
+  pushName: 'Natti 🦄',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Ya le digo amor',
+      previewType: 0,
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Ya le digo amor',
+  from: '573043070202'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573117994060@s.whatsapp.net',
+    fromMe: false,
+    id: 'BBAAED8A68F825072B5471132BA64446',
+    participant: undefined
+  },
+  messageTimestamp: 1739197590,
+  pushName: 'Karina🤍',
+  broadcast: false,
+  message: Message {
+    conversation: 'KAJAKAJAJAJKAKAKAKAJA',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'KAJAKAJAJAJKAKAKAKAJA',
+  from: '573117994060'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_e11b0384-daa9-48bc-8a30-907198c5ab9c',
+  keyword: 'key_24572a79-e6c5-4ad5-b758-e1b0621b5968',
+  answer: '🙌 ¡Hola! Bienvenido a *Atlantis Constructora Ltda.*\n' +
+    'Gracias por contactarnos.\n' +
+    'Estamos aquí para ayudarte a construir tus sueños.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '948065a7b67e2aac931300b296946654'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573117994060@s.whatsapp.net',
+    fromMe: false,
+    id: '1D5E03DF2C2C8BA1837EF0EA3CCC849C',
+    participant: undefined
+  },
+  messageTimestamp: 1739197591,
+  pushName: 'Karina🤍',
+  broadcast: false,
+  message: Message {
+    conversation: 'Nada',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Nada',
+  from: '573117994060'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_a4c653f3-cde4-4f21-ac1e-d9cb87a9515b',
+  keyword: 'ans_e11b0384-daa9-48bc-8a30-907198c5ab9c',
+  answer: '¿Cuéntanos en qué podemos ayudarte?',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '033c57c2c3f879e1d3f4b2c5368564c7'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573117994060@s.whatsapp.net',
+    fromMe: false,
+    id: 'F045635DF4BCC0262BC78DFB0126A9E5',
+    participant: undefined
+  },
+  messageTimestamp: 1739197596,
+  pushName: 'Karina🤍',
+  broadcast: false,
+  message: Message {
+    conversation: 'Me da flojera',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Me da flojera',
+  from: '573117994060'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573117994060@s.whatsapp.net',
+    fromMe: false,
+    id: '6B678F92D74FF5E629B69CAE00A7A4FC',
+    participant: undefined
+  },
+  messageTimestamp: 1739197602,
+  pushName: 'Karina🤍',
+  broadcast: false,
+  message: Message {
+    conversation: 'Quenmodnasaa',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Quenmodnasaa',
+  from: '573117994060'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573117994060@s.whatsapp.net',
+    fromMe: false,
+    id: '23E87A9C15B454D1CDB2F618931F0CA6',
+    participant: undefined
+  },
+  messageTimestamp: 1739197615,
+  pushName: 'Karina🤍',
+  broadcast: false,
+  message: Message {
+    conversation: '1',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '1',
+  from: '573117994060'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573117994060@s.whatsapp.net',
+    fromMe: false,
+    id: '0580666C3936CC82F0B2A11F56AE1F51',
+    participant: undefined
+  },
+  messageTimestamp: 1739197621,
+  pushName: 'Karina🤍',
+  broadcast: false,
+  message: Message {
+    conversation: 'Volver',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Volver',
+  from: '573117994060'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_8cb41294-1466-4457-8ce0-307657bf4c04',
+  keyword: 'key_ef21ac0e-8349-4a20-bab7-14d72eee2abc',
+  answer: 'Por favor selecciona una de las siguientes opciones para que podamos asistirte de manera más rápida:\r\n' +
+    '\r\n' +
+    '  1️⃣ *Estoy interesado en un proyecto.*\r\n' +
+    '  2️⃣ *Consultar mi estado de cuenta.*           \r\n' +
+    '  3️⃣ *Quejas y Sugerencias.*\r\n' +
+    '  4️⃣ *Contactar con un asesor.*\r\n' +
+    '\r\n' +
+    'Nuestro equipo estará encantado de atenderte.\r\n' +
+    '¡Gracias por confiar en nosotros! ✨\r\n' +
+    '👉 Escribe el número de la opción para continuar.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '13f4b1cb1342d8cae19d3de51537ebcb'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573117994060@s.whatsapp.net',
+    fromMe: false,
+    id: 'BBF25C3E885430ACBAAA03E37CE4A1D5',
+    participant: undefined
+  },
+  messageTimestamp: 1739197625,
+  pushName: 'Karina🤍',
+  broadcast: false,
+  message: Message {
+    conversation: '1',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '1',
+  from: '573117994060'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573117994060@s.whatsapp.net',
+    fromMe: false,
+    id: '33DDD45210325F3C5F1376FF8D6E2E67',
+    participant: undefined
+  },
+  messageTimestamp: 1739197641,
+  pushName: 'Karina🤍',
+  broadcast: false,
+  message: Message {
+    conversation: 'Busco un suggar',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Busco un suggar',
+  from: '573117994060'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573117994060@s.whatsapp.net',
+    fromMe: false,
+    id: 'EF1BE667A8EFCAEBE8BF136266DA0622',
+    participant: undefined
+  },
+  messageTimestamp: 1739197649,
+  pushName: 'Karina🤍',
+  broadcast: false,
+  message: Message {
+    conversation: 'JAJAJAJAJAJA',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'JAJAJAJAJAJA',
+  from: '573117994060'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_e11b0384-daa9-48bc-8a30-907198c5ab9c',
+  keyword: 'key_24572a79-e6c5-4ad5-b758-e1b0621b5968',
+  answer: '🙌 ¡Hola! Bienvenido a *Atlantis Constructora Ltda.*\n' +
+    'Gracias por contactarnos.\n' +
+    'Estamos aquí para ayudarte a construir tus sueños.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '948065a7b67e2aac931300b296946654'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_a4c653f3-cde4-4f21-ac1e-d9cb87a9515b',
+  keyword: 'ans_e11b0384-daa9-48bc-8a30-907198c5ab9c',
+  answer: '¿Cuéntanos en qué podemos ayudarte?',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '033c57c2c3f879e1d3f4b2c5368564c7'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573117994060@s.whatsapp.net',
+    fromMe: false,
+    id: '313C97DE0BD54523F34406929376CD1B',
+    participant: undefined
+  },
+  messageTimestamp: 1739197657,
+  pushName: 'Karina🤍',
+  broadcast: false,
+  message: Message {
+    conversation: 'Aybyaaaaaaa',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Aybyaaaaaaa',
+  from: '573117994060'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573117994060@s.whatsapp.net',
+    fromMe: false,
+    id: 'FCE7B73735133B1E78D67C93A51EAEF9',
+    participant: undefined
+  },
+  messageTimestamp: 1739197659,
+  pushName: 'Karina🤍',
+  broadcast: false,
+  message: Message {
+    conversation: 'Erda',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Erda',
+  from: '573117994060'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573117994060@s.whatsapp.net',
+    fromMe: false,
+    id: '931FD5DEF5DE50E0E94289C22C9B84C1',
+    participant: undefined
+  },
+  messageTimestamp: 1739197664,
+  pushName: 'Karina🤍',
+  broadcast: false,
+  message: Message {
+    conversation: 'Yaaaaaa',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Yaaaaaa',
+  from: '573117994060'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573117994060@s.whatsapp.net',
+    fromMe: false,
+    id: '22D1EF4A3F13DE89A3988EA56A491F0D',
+    participant: undefined
+  },
+  messageTimestamp: 1739197679,
+  pushName: 'Karina🤍',
+  broadcast: false,
+  message: Message {
+    stickerMessage: StickerMessage {
+      url: 'https://mmg.whatsapp.net/v/t62.15575-24/19732741_1156204872809516_7449999076666993152_n.enc?ccb=11-4&oh=01_Q5AaICLN63rzjPQQ4gy46lDcSmLzzB_TwlwBubEFmizV6dv-&oe=67D180A1&_nc_sid=5e03e0&mms3=true',
+      fileSha256: [Uint8Array],
+      fileEncSha256: [Uint8Array],
+      mediaKey: [Uint8Array],
+      mimetype: 'image/webp',
+      height: 64,
+      width: 64,
+      directPath: '/v/t62.15575-24/19732741_1156204872809516_7449999076666993152_n.enc?ccb=11-4&oh=01_Q5AaICLN63rzjPQQ4gy46lDcSmLzzB_TwlwBubEFmizV6dv-&oe=67D180A1&_nc_sid=5e03e0',
+      fileLength: [Long],
+      mediaKeyTimestamp: [Long],
+      isAnimated: false,
+      stickerSentTs: [Long],
+      isAvatar: false
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '_event_media__83ec5b1c-ace2-4544-97b3-e76840a4f613',
+  from: '573117994060'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573117994060@s.whatsapp.net',
+    fromMe: false,
+    id: 'A276FCBAE412F87016615D593B6BD874',
+    participant: undefined
+  },
+  messageTimestamp: 1739197684,
+  pushName: 'Karina🤍',
+  broadcast: false,
+  message: Message {
+    conversation: 'Cv',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Cv',
+  from: '573117994060'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573117994060@s.whatsapp.net',
+    fromMe: false,
+    id: 'D89BF182129697AC9A626FD0EC2D3EC5',
+    participant: undefined
+  },
+  messageTimestamp: 1739197701,
+  pushName: 'Karina🤍',
+  broadcast: false,
+  message: Message {
+    stickerMessage: StickerMessage {
+      url: 'https://mmg.whatsapp.net/v/t62.15575-24/21477772_1319314025886064_5860319384861295737_n.enc?ccb=11-4&oh=01_Q5AaIOY6vKvug6MA9FNSOa8ym2uLlNFGXByltrmiMoNOzQMO&oe=67D172F9&_nc_sid=5e03e0&mms3=true',
+      fileSha256: [Uint8Array],
+      fileEncSha256: [Uint8Array],
+      mediaKey: [Uint8Array],
+      mimetype: 'image/webp',
+      directPath: '/v/t62.15575-24/21477772_1319314025886064_5860319384861295737_n.enc?ccb=11-4&oh=01_Q5AaIOY6vKvug6MA9FNSOa8ym2uLlNFGXByltrmiMoNOzQMO&oe=67D172F9&_nc_sid=5e03e0',
+      fileLength: [Long],
+      mediaKeyTimestamp: [Long],
+      isAnimated: false,
+      stickerSentTs: [Long],
+      isAvatar: false
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '_event_media__deb65b44-60ea-42d3-ad6a-8950a47398bb',
+  from: '573117994060'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573117994060@s.whatsapp.net',
+    fromMe: false,
+    id: '1A2AA9D72C9F8EA3FED9D11D412DEEE3',
+    participant: undefined
+  },
+  messageTimestamp: 1739197712,
+  pushName: 'Karina🤍',
+  broadcast: false,
+  message: Message {
+    stickerMessage: StickerMessage {
+      url: 'https://mmg.whatsapp.net/v/t62.15575-24/12161756_1918088678723642_128399635394702260_n.enc?ccb=11-4&oh=01_Q5AaIG_x3Qg7ht2sK6fg1ajw0GPCA_099xoV-PmCDAGo4rwp&oe=67D19562&_nc_sid=5e03e0&mms3=true',
+      fileSha256: [Uint8Array],
+      fileEncSha256: [Uint8Array],
+      mediaKey: [Uint8Array],
+      mimetype: 'image/webp',
+      height: 64,
+      width: 64,
+      directPath: '/v/t62.15575-24/12161756_1918088678723642_128399635394702260_n.enc?ccb=11-4&oh=01_Q5AaIG_x3Qg7ht2sK6fg1ajw0GPCA_099xoV-PmCDAGo4rwp&oe=67D19562&_nc_sid=5e03e0',
+      fileLength: [Long],
+      mediaKeyTimestamp: [Long],
+      firstFrameLength: 926104,
+      firstFrameSidecar: [Uint8Array],
+      isAnimated: true,
+      stickerSentTs: [Long],
+      isAvatar: false
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '_event_media__620e65ce-ec10-4986-ad64-85f56e428cd3',
+  from: '573117994060'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573117994060@s.whatsapp.net',
+    fromMe: false,
+    id: '059EB48BAE2CA3225E63C46326E78029',
+    participant: undefined
+  },
+  messageTimestamp: 1739197740,
+  pushName: 'Karina🤍',
+  broadcast: false,
+  message: Message {
+    conversation: 'Cv',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Cv',
+  from: '573117994060'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573043070202@s.whatsapp.net',
+    fromMe: false,
+    id: '5E40702661FB4965C2DE1BF764CD66E6',
+    participant: undefined
+  },
+  messageTimestamp: 1739197884,
+  pushName: 'Natti 🦄',
+  broadcast: false,
+  message: Message {
+    audioMessage: AudioMessage {
+      url: 'https://mmg.whatsapp.net/v/t62.7117-24/32579063_1352587359093435_3814174943652046847_n.enc?ccb=11-4&oh=01_Q5AaIFqHPmKLza8MagNuooz3ggrGzXRIxTcdebZ0ahiCuwPf&oe=67D16869&_nc_sid=5e03e0&mms3=true',
+      mimetype: 'audio/ogg; codecs=opus',
+      fileSha256: [Uint8Array],
+      fileLength: [Long],
+      seconds: 81,
+      ptt: false,
+      mediaKey: [Uint8Array],
+      fileEncSha256: [Uint8Array],
+      directPath: '/v/t62.7117-24/32579063_1352587359093435_3814174943652046847_n.enc?ccb=11-4&oh=01_Q5AaIFqHPmKLza8MagNuooz3ggrGzXRIxTcdebZ0ahiCuwPf&oe=67D16869&_nc_sid=5e03e0&_nc_hot=1739197882',
+      mediaKeyTimestamp: [Long],
+      contextInfo: [ContextInfo],
+      waveform: [Uint8Array]
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '_event_voice_note__d7203cb9-4fb7-4d9a-9e72-cca65594903e',
+  from: '573043070202'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573043070202@s.whatsapp.net',
+    fromMe: false,
+    id: '2C5EFB83D2FAC088AECF4732930E73E8',
+    participant: undefined
+  },
+  messageTimestamp: 1739197898,
+  pushName: 'Natti 🦄',
+  broadcast: false,
+  message: Message {
+    conversation: 'Amor lo del correo',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Amor lo del correo',
+  from: '573043070202'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573043070202@s.whatsapp.net',
+    fromMe: false,
+    id: '1C61A537045CBFC9E265050EC077796A',
+    participant: undefined
+  },
+  messageTimestamp: 1739197915,
+  pushName: 'Natti 🦄',
+  broadcast: false,
+  message: Message {
+    conversation: 'El idiota del hermano no le dijo que ya está firmado',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'El idiota del hermano no le dijo que ya está firmado',
+  from: '573043070202'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573117994060@s.whatsapp.net',
+    fromMe: false,
+    id: 'E6FA8457B268669758EDE856B1219C89',
+    participant: undefined
+  },
+  messageTimestamp: 1739198026,
+  pushName: 'Karina🤍',
+  broadcast: false,
+  message: Message {
+    audioMessage: AudioMessage {
+      url: 'https://mmg.whatsapp.net/v/t62.7117-24/11237858_540644775694217_1474999503032210287_n.enc?ccb=11-4&oh=01_Q5AaIIwY5zb7m4hCitAIU-zbS_5QFXlq3eZHO9hYiBfeTAwe&oe=67D1999E&_nc_sid=5e03e0&mms3=true',
+      mimetype: 'audio/ogg; codecs=opus',
+      fileSha256: [Uint8Array],
+      fileLength: [Long],
+      seconds: 3,
+      ptt: true,
+      mediaKey: [Uint8Array],
+      fileEncSha256: [Uint8Array],
+      directPath: '/v/t62.7117-24/11237858_540644775694217_1474999503032210287_n.enc?ccb=11-4&oh=01_Q5AaIIwY5zb7m4hCitAIU-zbS_5QFXlq3eZHO9hYiBfeTAwe&oe=67D1999E&_nc_sid=5e03e0',
+      mediaKeyTimestamp: [Long],
+      waveform: [Uint8Array]
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '_event_voice_note__cb71ae3f-ee1b-4264-b996-4f238832125b',
+  from: '573117994060'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573043070202@s.whatsapp.net',
+    fromMe: false,
+    id: '5B3A9AD77958E10A398DBFD035FE16FA',
+    participant: undefined
+  },
+  messageTimestamp: 1739198090,
+  pushName: 'Natti 🦄',
+  broadcast: false,
+  message: Message {
+    imageMessage: ImageMessage {
+      interactiveAnnotations: [],
+      scanLengths: [Array],
+      url: 'https://mmg.whatsapp.net/v/t62.7118-24/35282446_2170812139999997_6339614985603450031_n.enc?ccb=11-4&oh=01_Q5AaIBBI2ouzI4OJe3keqvV-8MRvr8Ipn6MFb77La7mmE_Wa&oe=67D18731&_nc_sid=5e03e0&mms3=true',
+      mimetype: 'image/jpeg',
+      fileSha256: [Uint8Array],
+      fileLength: [Long],
+      height: 1599,
+      width: 899,
+      mediaKey: [Uint8Array],
+      fileEncSha256: [Uint8Array],
+      directPath: '/v/t62.7118-24/35282446_2170812139999997_6339614985603450031_n.enc?ccb=11-4&oh=01_Q5AaIBBI2ouzI4OJe3keqvV-8MRvr8Ipn6MFb77La7mmE_Wa&oe=67D18731&_nc_sid=5e03e0',
+      mediaKeyTimestamp: [Long],
+      jpegThumbnail: [Uint8Array],
+      scansSidecar: [Uint8Array],
+      midQualityFileSha256: [Uint8Array]
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '_event_media__0eeb3bd1-1913-4b61-972c-4fc75d76777a',
+  from: '573043070202'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573117994060@s.whatsapp.net',
+    fromMe: false,
+    id: '2B7883585D6F876353C69D8C60F69C45',
+    participant: undefined
+  },
+  messageTimestamp: 1739198101,
+  pushName: 'Karina🤍',
+  broadcast: false,
+  message: Message {
+    conversation: 'Cv',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Cv',
+  from: '573117994060'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573043070202@s.whatsapp.net',
+    fromMe: false,
+    id: 'BFE051683DE988558224E3E76E0344FE',
+    participant: undefined
+  },
+  messageTimestamp: 1739198349,
+  pushName: 'Natti 🦄',
+  broadcast: false,
+  message: Message {
+    conversation: 'Amor esta en la cama de tu mamá',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Amor esta en la cama de tu mamá',
+  from: '573043070202'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573043070202@s.whatsapp.net',
+    fromMe: false,
+    id: '4D335576A72C672B1624E2468F51A8BF',
+    participant: undefined
+  },
+  messageTimestamp: 1739198351,
+  pushName: 'Natti 🦄',
+  broadcast: false,
+  message: Message {
+    conversation: 'Jajajaja',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Jajajaja',
+  from: '573043070202'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573043070202@s.whatsapp.net',
+    fromMe: false,
+    id: 'C80D1EFBDE4080EC3DFF1F4F5BFF808F',
+    participant: undefined
+  },
+  messageTimestamp: 1739198359,
+  pushName: 'Natti 🦄',
+  broadcast: false,
+  message: Message {
+    conversation: 'Mira samir quitame esa cosa',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Mira samir quitame esa cosa',
+  from: '573043070202'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573043070202@s.whatsapp.net',
+    fromMe: false,
+    id: 'D164836309E9EBD5F86DECF0190A4EFD',
+    participant: undefined
+  },
+  messageTimestamp: 1739198614,
+  pushName: 'Natti 🦄',
+  broadcast: false,
+  message: Message {
+    conversation: 'Bueno amor',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Bueno amor',
+  from: '573043070202'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573117994060@s.whatsapp.net',
+    fromMe: false,
+    id: '1FA974E1A7889A9089D17C2B797ABE02',
+    participant: undefined
+  },
+  messageTimestamp: 1739198758,
+  pushName: 'Karina🤍',
+  broadcast: false,
+  message: Message {
+    conversation: 'Bueno jajaja',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Bueno jajaja',
+  from: '573117994060'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573117994060@s.whatsapp.net',
+    fromMe: false,
+    id: 'AB4A60FF9E66DB166B2B789EFEFA1514',
+    participant: undefined
+  },
+  messageTimestamp: 1739198967,
+  pushName: 'Karina🤍',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola majo hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Hola majo hola',
+  from: '573117994060'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_0ba4d6b0-71fb-4fae-8d89-d877cb6350b8',
+  keyword: 'key_7d903d56-2afb-49e0-926f-ab8f151c5691',
+  answer: '🙌 ¡Hola! Bienvenido a *Atlantis Constructora Ltda.*\n' +
+    'Gracias por contactarnos.\n' +
+    'Estamos aquí para ayudarte a construir tus sueños.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '18c0de57e5f6bedcda919f4ee2ba708e'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_272a97ba-5abc-47a2-b573-fbab91ecc4ff',
+  keyword: 'ans_0ba4d6b0-71fb-4fae-8d89-d877cb6350b8',
+  answer: '¿Cuéntanos en qué podemos ayudarte?',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'f4d6e07d4dd8dbc72f0e5f21f8b12567'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573117994060@s.whatsapp.net',
+    fromMe: false,
+    id: '1029F45202B0AAA3E021DC73D110FBED',
+    participant: undefined
+  },
+  messageTimestamp: 1739199194,
+  pushName: 'Karina🤍',
+  broadcast: false,
+  message: Message {
+    conversation: 'JAJAJAJAJAJJAJAJAJAJAJAJAJA',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'JAJAJAJAJAJJAJAJAJAJAJAJAJA',
+  from: '573117994060'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573117994060@s.whatsapp.net',
+    fromMe: false,
+    id: '68A8A79655785AB810EA2A550E296C9F',
+    participant: undefined
+  },
+  messageTimestamp: 1739199199,
+  pushName: 'Karina🤍',
+  broadcast: false,
+  message: Message {
+    conversation: 'Opción válida?',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Opción válida?',
+  from: '573117994060'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573117994060@s.whatsapp.net',
+    fromMe: false,
+    id: '2BE096E560557DE8681B4BB1410C3AEC',
+    participant: undefined
+  },
+  messageTimestamp: 1739199600,
+  pushName: 'Karina🤍',
+  broadcast: false,
+  message: Message {
+    conversation: 'JAJAJAJJAJAJAJAJAHAJ',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'JAJAJAJJAJAJAJAJAHAJ',
+  from: '573117994060'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573043070202@s.whatsapp.net',
+    fromMe: false,
+    id: '8E5F89EBFA4ED14560B30F36A2192AE8',
+    participant: undefined
+  },
+  messageTimestamp: 1739200167,
+  pushName: 'Natti 🦄',
+  broadcast: false,
+  message: Message {
+    imageMessage: ImageMessage {
+      interactiveAnnotations: [],
+      scanLengths: [Array],
+      url: 'https://mmg.whatsapp.net/v/t62.7118-24/13783365_3873205969675325_1023238245847171927_n.enc?ccb=11-4&oh=01_Q5AaIG-HqJXti8wJ51VU1A7hWuWskxOClHbNsD4NVR30-nPT&oe=67D178C2&_nc_sid=5e03e0&mms3=true',
+      mimetype: 'image/jpeg',
+      fileSha256: [Uint8Array],
+      fileLength: [Long],
+      height: 1599,
+      width: 899,
+      mediaKey: [Uint8Array],
+      fileEncSha256: [Uint8Array],
+      directPath: '/v/t62.7118-24/13783365_3873205969675325_1023238245847171927_n.enc?ccb=11-4&oh=01_Q5AaIG-HqJXti8wJ51VU1A7hWuWskxOClHbNsD4NVR30-nPT&oe=67D178C2&_nc_sid=5e03e0',
+      mediaKeyTimestamp: [Long],
+      jpegThumbnail: [Uint8Array],
+      scansSidecar: [Uint8Array],
+      midQualityFileSha256: [Uint8Array]
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '_event_media__5fb93342-1e93-4a75-8b96-cbfc08cf3682',
+  from: '573043070202'
+}
