@@ -53,34 +53,60 @@ const validarHorarioLaboral = () => {
     return esHorarioLaboral;
 };
 
+
 //...................OPCIONES DEL MENU................//
-
-// Flujo de Asesor
+// 🔹 Flujo de Asesoría (Redirige al submenú)
 const flowAsesor = addKeyword(EVENTS.ACTION)
-    .addAnswer("Escribe *volver* para regresar al menú principal.")
-    .addAnswer(['📞 *Hablar con un Asesor*',
-        'Sabemos que a veces necesitas atención personalizada.',
-        'Haz clic en el siguiente enlace para comunicarte directamente con uno de nuestros asesores:',
-        '👉 *[Llamar]*: tel:3126610564',
-        '💬 ¡Estamos aquí para ayudarte!'
-    ],
-        null, async (_, { flowDynamic, gotoFlow }) => {
-            manejarRedireccion(_, gotoFlow);
-            if (validarHorarioLaboral()) {
-                await flowDynamic('✅ Estamos en horario laboral. Contacte al asesor y revisará tu solicitud pronto.');
-            } else {
-                await flowDynamic([
-                    'Actualmente estamos fuera de servicio' +
-                    '🕒 Nuestro horario de atención es el siguiente: \n' +
-                    '• Lunes a Viernes: de 7:00 AM a 6:00 PM\n' +
-                    '• Jueves y Viernes (horario especial): de 7:00 AM a 5:00 PM\n' +
-                    '• Sábado: de 8:00 AM a 11:45 AM\n' +
-                    '• Domingo: Cerrado\n' +
-                    'Deja tu consulta en el enlace anterior y un asesor te atenderá en el siguiente día hábil según este horario.',
-                ]);
-            }
-        })
+    .addAnswer("📞 *Hablar con un Asesor*", null, async (_, { flowDynamic, gotoFlow }) => {
+        if (!validarHorarioLaboral()) {
+            await flowDynamic([
+                '⏳ *Fuera de horario laboral*\n'+
+                '🕒 Nuestro horario de atención es:\n'+
+                '• Lunes a Viernes: de 7:00 AM a 6:00 PM\n'+
+                '• Jueves y Viernes (horario especial): de 7:00 AM a 5:00 PM\n'+
+                '• Sábado: de 8:00 AM a 11:45 AM\n'+
+                '• Domingo: Cerrado\n'+
+                '📌 Deja tu consulta y un asesor te atenderá en el siguiente día hábil.'
+            ]);
+        } else {
+            await flowDynamic('✅ Estamos en horario laboral. Puedes contactarte con un asesor.');
+        }
 
+        return gotoFlow(flowSubmenuAsesor); // ✅ Retorna correctamente al submenú
+    });
+
+// 🔹 Submenú del asesor
+const flowSubmenuAsesor = addKeyword(['submenuasesor'])
+    .addAnswer([
+        '📌 *Selecciona una opción:*\n'+
+        '\n1️⃣ *Asesor de Ventas*'+
+        '\n2️⃣ *Asesor de Arriendos*'+
+        '\n3️⃣ *Llamar a un Asesor*\n'+
+        '\n🔙 Escribe *volver* para regresar al menú principal.'
+    ], { capture: true }, async (ctx, { flowDynamic, gotoFlow }) => {
+        if (ctx.body === '1') {
+            await flowDynamic([
+                '✅ *Asesor de Ventas:*\n'+
+                '\n💬 Contacta a *Laura*: https://wa.me/3016886282'+
+                '\n💬 Contacta a *Ingrid*: https://wa.me/3156817798'
+            ]);
+        } else if (ctx.body === '2') {
+            await flowDynamic([
+                '✅ *Asesor de Arriendos:*\n'+
+                '\n💬 Contacta a *Alexandra*: https://wa.me/3005907784'
+            ]);
+        } else if (ctx.body === '3') {
+            await flowDynamic([
+                '📞 *Llamar a un Asesor*'+
+                '\n👉 *[Llamar ahora](tel:+573016886282)*'+
+                '\n👉 *[Llamar ahora](tel:+573156817798)*'
+            ]);
+        } else if (ctx.body.toLowerCase() === 'volver') {
+            return gotoFlow(menuFlow); // ✅ Ahora regresa correctamente al menú principal
+        } else {
+            await flowDynamic('❌ Opción inválida. Escribe *1*, *2*, *3* o *volver*.');
+        }
+    });
 // Flujo de Quejas
 const flowQuejas = addKeyword(EVENTS.ACTION)
     .addAnswer("Escribe *volver* para regresar al menú principal.")
@@ -96,11 +122,13 @@ const flowQuejas = addKeyword(EVENTS.ACTION)
 const flowCuenta = addKeyword(EVENTS.ACTION)
     .addAnswer("Escribe *volver* para regresar al menú principal.")
     .addAnswer([
-        '🔍 Para consultar tu Estado de Cuenta, necesito que envíes un mensaje al siguiente link con los siguientes datos:',
-        '*Nombre:*',
-        '*Identificación:*',
-        '⚠️ Todo en un solo mensaje.',
-        '\nlink : https://wa.me/3217273896',
+        '🔍 Para consultar tu Estado de Cuenta, necesito que envíes un mensaje al siguiente correo con los siguientes datos:',
+        '*Nombre:*'+
+        '\n*Identificación:*'+
+        '\n*Nombre del proyecto:*'+
+        '\n⚠️ Todo en un solo mensaje.'+
+        '\n📧 *Correo:* Tesoreria@atlantisconstructora.com'+
+        '\n✅ Nuestro equipo revisará tu solicitud y te responderá en breve.'
     ],
         null, async (_, { flowDynamic, gotoFlow }) => {
             manejarRedireccion(_, gotoFlow);
@@ -123,48 +151,9 @@ const flowCuenta = addKeyword(EVENTS.ACTION)
 const flowVenta = addKeyword(EVENTS.ACTION)
     .addAnswer("Escribe *volver* para regresar al menú principal.")
     .addAnswer(
-        [
-            '🏗 Interesado en un Proyecto',
-            'Por favor, cuéntanos el nombre del proyecto que te interesa.'
-        ],
-        { capture: true },
-        async (ctx, { flowDynamic }) => {
-
-
-            const proyectoInteresado = ctx.body;
-
-            if (['volver', 'menu', 'menú'].includes(proyectoInteresado.toLowerCase())) {
-                await flowDynamic(['🔙 Regresando al menú principal...']);
-                return;
-            }
-
-            try {
-                if (validarHorarioLaboral()) {
-                    await flowDynamic([
-                        `✅ ¡Gracias por tu interés en el proyecto *${proyectoInteresado}*!`,
-                        'Haz click sobre el siguiente link para comunicarte instantáneamente con nuestro asesor de ventas',
-                        'https://wa.me/3126610564'
-                    ]);
-                } else {
-                    await flowDynamic([
-                        `✅ ¡Gracias por tu interés en el proyecto *${proyectoInteresado}*!`,
-                        'Actualmente estamos fuera de servicio' +
-                        '🕒 Nuestro horario de atención es el siguiente: \n' +
-                        '• Lunes a Viernes: de 7:00 AM a 6:00 PM\n' +
-                        '• Jueves y Viernes (horario especial): de 7:00 AM a 5:00 PM\n' +
-                        '• Sábado: de 8:00 AM a 11:45 AM\n' +
-                        '• Domingo: Cerrado',
-                        'Deja tu consulta en el siguiente enlace y un asesor te atenderá en el siguiente día hábil según este horario.' +
-                        '\nhttps://wa.me/3126610564'
-                    ]);
-                }
-            } catch (error) {
-                console.error('Error en el flujo de ventas:', error);
-                await flowDynamic([
-                    '❌ Ocurrió un problema procesando tu solicitud. Por favor, intenta nuevamente más tarde.'
-                ]);
-            }
-        }
+        "🔍 Para consultar nuestros proyectos disponibles, por favor visita nuestra páginas en redes sociales:\n" +
+        "👉 [Facebook](https://www.facebook.com/AtlantisConstructora)\n" +
+        "👉 [Instagram](https://www.instagram.com/atlantisconstructora)"
     );
 
 //....................MENU......................//
@@ -193,11 +182,11 @@ const menuFlow = addKeyword(["menu", "volver"])
             case "1":
                 return gotoFlow(flowVenta);
             case "2":
-                return gotoFlow(flowCuenta);
-            case "3":
-                return gotoFlow(flowQuejas);
-            case "4":
                 return gotoFlow(flowAsesor);
+            case "3":
+                return gotoFlow(flowCuenta);
+            case "4":
+                return gotoFlow(flowQuejas);
             case "0":
                 return await flowDynamic("Saliendo... Puedes volver al menú escribiendo '*menu*'.");
         }
@@ -216,6 +205,7 @@ const flowPrincipal = addKeyword(['hola', 'ole', 'alo'])
         // Captura lo que el usuario escribe
         const consultaUsuario = ctx.body;
         console.log(`Consulta del usuario: ${consultaUsuario}`);
+    
 
         // Envía el menú después de la respuesta
         await flowDynamic("Aquí tienes nuestras opciones:");
@@ -239,12 +229,12 @@ const flowPrincipal = addKeyword(['hola', 'ole', 'alo'])
             // Envía el menú después de la respuesta
             await flowDynamic("Aquí tienes nuestras opciones:");
             return gotoFlow(menuFlow); // Redirige al flujo del menú
-        }
+         }
     );
 // Inicialización del Bot
 const main = async () => {
     const adapterDB = new MockAdapter();
-    const adapterFlow = createFlow([flowPrincipal, flowWelcome, menuFlow, flowVenta, flowCuenta, flowAsesor, flowQuejas, flowGracias]);
+    const adapterFlow = createFlow([flowPrincipal, flowWelcome, menuFlow, flowVenta, flowCuenta, flowAsesor, flowQuejas, flowGracias, flowSubmenuAsesor]);
     const adapterProvider = createProvider(BaileysProvider);
 
     createBot({
