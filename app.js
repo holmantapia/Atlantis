@@ -87,13 +87,13 @@ const flowSubmenuAsesor = addKeyword(['submenuasesor'])
         if (ctx.body === '1') {
             await flowDynamic([
                 '✅ *Asesor de Ventas:*\n'+
-                '\n💬 Contacta a *Laura*: https://wa.me/3016886282'+
-                '\n💬 Contacta a *Ingrid*: https://wa.me/3156817798'
+                '\n💬 Contacta a *Laura*: https://wa.me/573016886282'+
+                '\n💬 Contacta a *Ingrid*: https://wa.me/573156817798'
             ]);
         } else if (ctx.body === '2') {
             await flowDynamic([
                 '✅ *Asesor de Arriendos:*\n'+
-                '\n💬 Contacta a *Alexandra*: https://wa.me/3005907784'
+                '\n💬 Contacta a *Alexandra*: https://wa.me/573005907784'
             ]);
         } else if (ctx.body === '3') {
             await flowDynamic([
@@ -113,7 +113,7 @@ const flowQuejas = addKeyword(EVENTS.ACTION)
     .addAnswer([
         '📋 PQRSF',
         'Queremos mejorar nuestro servicio. Por favor, completa el formulario en el siguiente enlace para registrar tu PQRSF:',
-        '\n👉(peticiones, quejas, reclamos, felicitaciones)(https://forms.gle/CdPQLxnKbotv4twY8)',
+        '\n👉(peticiones, quejas, reclamos, felicitaciones)(https://forms.gle/g9h53L4NPgjUfrv76)',
         '\n✅ Una vez completado, nuestro equipo lo revisará y se pondrá en contacto contigo. ¡Gracias por ayudarnos a mejorar!']
     );
 
